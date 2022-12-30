@@ -55,6 +55,7 @@ if [ $REPLY == "y" ]; then
     clear
     sudo apt-get update
     clear
+    sudo apt-get install mplayer -y
     echo -ne "done";
 fi                                                 
 clear
