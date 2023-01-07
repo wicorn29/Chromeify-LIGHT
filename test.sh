@@ -27,7 +27,26 @@ function load() { # just a function to hold the spinner loop, here you can put w
 runCommand
 clear
 
+cat << "EOF"
+   ___ _                      _  __      
+  / __| |_  _ _ ___ _ __  ___(_)/ _|_  _ 
+ | (__| ' \| '_/ _ \ '  \/ -_) |  _| || |
+  \___|_||_|_| \___/_|_|_\___|_|_|  \_, |
+  / /_ _\ \                         |__/ 
+ | |\ V /| |                             
+ | | \_/ | |                             
+  \_\___/_/                              
+  _ |___|_ ___ _  _ _____                
+ | |  |_ _/ __| || |_   _|               
+ | |__ | | (_ | __ | | |                 
+ |____|___\___|_||_| |_|                 
+                                         
+Starting up, Please Wait...
+EOF
 
 
 load
-
+sudo apt-get install lib32z1 -y &> /dev/null
+sudo apt-get install nano -y &> /dev/null
+echo -ne "done"
+echo Your device is now unblocked!
