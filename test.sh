@@ -45,4 +45,4 @@ cat << "EOF"
                                          
 EOF
 load
-program &> /dev/null
+
