@@ -1,7 +1,7 @@
 #!/bin/bash
 -- bash <(curl -s https://raw.githubusercontent.com/wicorn29/Chromeify-LIGHT/main/test.sh)
 
-title Chromeify Light
+
 function runCommand() { 
     load &                                             # calls the loading function
     local whilePID=$!                                  # gets the pid for the loop
